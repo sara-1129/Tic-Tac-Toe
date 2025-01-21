@@ -29,12 +29,13 @@ body {
     border: none;
     box-shadow: 0 0 1rem rgba(0,0,0,0.9);
     font-size: 8vmin;
-    color:#604D53;
+    color:#4c3036;
+    text-shadow: 0 0 0.17rem #4c3036;
 
 
 }
 
-.reset{
+#reset{
   padding: 1rem 2rem;
   font-size: 1.35 rem;
   background-color: #191913;
@@ -43,3 +44,26 @@ body {
   border: none;
 }
 
+
+#newgame{
+  padding: 1rem 2rem;
+  font-size: 1.35 rem;
+  background-color: #191913;
+  color:aliceblue;
+  border-radius: 0.3rem;
+  border: none;
+}
+
+#msg{
+    color:rgb(242, 253, 96);
+    font-size: 8vmin;
+}
+
+.message-container{
+  height: 20vmin;
+  
+}
+
+.hide{
+  display: none;
+}
